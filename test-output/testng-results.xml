@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40" started-at="2019-09-22T09:29:55Z" finished-at="2019-09-22T09:29:55Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="A.tc2()[pri:0, instance:org.cts.TestNGProject.A@2b80d80f]" name="tc2" class="org.cts.TestNGProject.A"/>
+      </group> <!-- Sanity -->
+      <group name="Retest">
+        <method signature="A.tc5()[pri:0, instance:org.cts.TestNGProject.A@2b80d80f]" name="tc5" class="org.cts.TestNGProject.A"/>
+      </group> <!-- Retest -->
+      <group name="Smoke">
+        <method signature="A.tc3()[pri:0, instance:org.cts.TestNGProject.A@2b80d80f]" name="tc3" class="org.cts.TestNGProject.A"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="40" started-at="2019-09-22T09:29:55Z" finished-at="2019-09-22T09:29:55Z">
+      <class name="org.cts.TestNGProject.A">
+        <test-method status="PASS" signature="tc2()[pri:0, instance:org.cts.TestNGProject.A@2b80d80f]" name="tc2" duration-ms="8" started-at="2019-09-22T14:59:55Z" finished-at="2019-09-22T14:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:org.cts.TestNGProject.A@2b80d80f]" name="tc3" duration-ms="0" started-at="2019-09-22T14:59:55Z" finished-at="2019-09-22T14:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:org.cts.TestNGProject.A@2b80d80f]" name="tc5" duration-ms="1" started-at="2019-09-22T14:59:55Z" finished-at="2019-09-22T14:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+      </class> <!-- org.cts.TestNGProject.A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
